@@ -32,5 +32,5 @@ export const Button = styled.button`
     border-radius: 4px;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
-    margin-left: 25px
+    margin-left: 25px;
 `
