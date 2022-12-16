@@ -8,7 +8,7 @@ export default createGlobalStyle `
     }
     
     button {
-        background-color: none;
+        background-color: transparent;
         border: none;
         outline: none;
     }

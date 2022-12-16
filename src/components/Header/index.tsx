@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Logo from '../../assets/logo.svg';
-import { Box, Menu } from './styles';
+import { Box, Menu, Button } from './styles';
 
 const Header: React.FC = () => {
     return (
@@ -14,7 +14,7 @@ const Header: React.FC = () => {
             <Menu><a href="#">How it works</a></Menu>
             <Menu><a href="#">Services</a></Menu>
             <Menu><a href="#">Contact</a></Menu>
-            <Menu><a href="#">Enquiry</a></Menu>
+            <Button>Enquiry</Button>
         </Box>
     );
 }
